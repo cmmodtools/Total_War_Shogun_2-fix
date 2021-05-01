@@ -1,0 +1,28 @@
+
+This script will modify files as required so that Total War: SHOGUN 2 will work
+on case-sensitive file systems.
+
+Feral Interactive states:
+
+"This game is not currently supported on volumes formatted as Case-sensitive."
+
+However after this script has been run Total War: SHOGUN 2 will work equally
+well on case-sensitive volumes. Only functionality with the Mac App Store
+version of Total War: SHOGUN 2 has been tested:
+
+https://apps.apple.com/app/total-war-shogun-2/id803871479
+
+To run the script enter the following command at the Terminal prompt:
+
+sh Total_War_Shogun_2-fix.sh
+
+This script will also work with Total War: FALL OF THE SAMURAI:
+
+https://apps.apple.com/app/total-war-fall-of-the-samurai/id913956783
+
+To enable Total War: FALL OF THE SAMURAI to work on case-sensitive volumes
+enter the following command at the Terminal prompt:
+
+sh Total_War_Shogun_2-fix.sh "/Applications/Total War SHOGUN 2 Fall of the Samurai.app"
+
+You will be prompted for your password.
